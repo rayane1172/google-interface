@@ -1,0 +1,114 @@
+.logo {
+    margin: -35px auto;
+    font-size: 200px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+body {
+    background-image:url(bgpic.jpg);
+    background-position: center;
+}
+.g-maj {
+    color: blue;
+    font-size: 200px;
+    text-shadow: 2px 100px 9px black;
+}
+.o {
+    color: red;
+    font-size: 300px;
+    text-shadow: 9px 100px 9px black;
+}
+.o-2 {
+    color: yellow;
+   font-size: 200px;
+   text-shadow: 10px 100px 10px greenyellow;
+}
+.g {
+    color: rgba(0, 0, 255, 0.591);
+    font-size: 300px;
+    text-shadow: 12px 100px 9px black;
+}
+.l {
+    color: greenyellow;
+    text-shadow: 10px 70px 9px black;
+}
+.e {
+    color: brown;
+    text-shadow: 30px 4px 10px black;
+}
+a img {
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    
+    
+}
+.container-search {
+    margin-top: 130px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+input {
+    width: 500px;
+    height: 50px;  
+    background-color: whitesmoke;
+    border-radius: 40px;
+    border-color: black;
+    background-image: url(namepic.jpg);
+    background-position: 47%;
+}
+label {
+    font-size: 110px;
+    font-style: italic;
+    text-shadow: 10px 10px 4px red;
+}
+button {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+}
+button:hover {
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+}
+div h1 {
+    font-size:80px;
+    margin-left:100px;
+    font-style: italic;
+    text-shadow: 200px 40px 5px white; 
+    
+    
+    
+}
+a {
+    text-decoration: none;
+}
+div img {
+    width: 100px;
+    height: 90px;   
+}
+.logos {
+    display: flex;
+    direction: rtl;
+    margin-top: -116px;
+    margin-right: 20px;
+}
+.logos .git,
+.logos .fb,
+.logos .insta,
+.logos .linked{
+    margin-left:30px;
+    width: 50px;
+}
+.logos .git:hover,
+.logos .fb:hover,
+.logos .insta:hover,
+.logos .linked:hover{
+     margin-top: 15px;
+}
