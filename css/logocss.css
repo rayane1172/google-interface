@@ -6,7 +6,7 @@
     text-transform:capitalize;
 }
 body {
-    background-image:url(bgpic.jpg);
+    background-image:url(../imgs/bgpic.jpg);
     background-position: center;
 }
 .g-maj {
